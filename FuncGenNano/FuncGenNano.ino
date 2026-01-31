@@ -8,7 +8,7 @@
 #define WFG_POTSEL 9
 #define WFG_POTRES 8 // Not used but needed for the driver SW
 #define WFG_POTSHUTD 7 // Not used but needed for the driver SW
-#define WFG_FREQ 1000000.0
+#define WFG_FREQ 10000.0
 
 /*
 //  MODE OPERANDI
