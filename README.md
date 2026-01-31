@@ -10,17 +10,20 @@ Based on code DFG-ArdAD9833 from ilneill (Github)
 
 Uses Arduino Libraries MCP_POT and AD9833 from RobTillaart (Github). These libraries are designed to use the chips in standalalone mode.
 
-Pins (X = no connection):
-AD9833 - Arduino
-VCC - 5V
-GND - GND
-FSY - D10 -> Chip select for waveform generator
-CLK - D13 -> Used by both the waveform generator and programmable potentiometer
-DAT - D11 -> Used by both the waveform generator and programmable potentiometer
-CS - D9 -> Chip select for programmable potentiometer
+Pins (X = no connection): <br/>
+AD9833 - Arduino <br/>
+VCC - 5V <br/>
+GND - GND <br/>
+FSY - D10 -> Chip select for waveform generator <br/>
+CLK - D13 -> Used by both the waveform generator and programmable potentiometer <br/>
+DAT - D11 -> Used by both the waveform generator and programmable potentiometer <br/>
+CS - D9 -> Chip select for programmable potentiometer <br/>
 
-PGA - X -> Module waveform output after amplification
-Vout - X -> Module waveform output direct from AD9833 (before amplification)
+Output: <br/>
+PGA - X -> Module waveform output after amplification <br/>
+Vout - X -> Module waveform output direct from AD9833 (before amplification) <br/>
+GND - X -> Ground for outputs
 
+On Arduino: <br/>
 X - D8, D7 -> Not used on WFG module. Needed for the MCP_POT Library for the potentiometer parameters reset and shutdown functions
 
